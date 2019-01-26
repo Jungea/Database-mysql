@@ -1,0 +1,1 @@
+select e.last_name, e.first_name, count(e.employee_id) from employees e join job_history j on e.employee_id=j.employee_id group by e.employee_id;

@@ -1,0 +1,6 @@
+[hw6_4] JDBC
+
+
+hw6_3에 이어 reservation, reservationDescript 테이블을 추가 작성하시오.
+
+제출할 파일 : hw6_4.sql 덤프파일.

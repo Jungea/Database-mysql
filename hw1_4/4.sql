@@ -1,0 +1,1 @@
+select e.employee_id 'EMP#', e.first_name 'EMP_NAME', e.manager_id 'MANAGER#', m.first_name 'MANAGER_NAME' from employees e join employees m on e.manager_id=m.employee_id;

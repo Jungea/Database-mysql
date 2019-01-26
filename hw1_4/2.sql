@@ -1,0 +1,1 @@
+select d.department_id, l.location_id, l. street_address, l.city, l.state_province, c.country_name from departments d join locations l on d.location_id = l.location_id join countries c on l.country_id = c.country_id;

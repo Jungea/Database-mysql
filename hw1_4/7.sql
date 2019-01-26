@@ -1,0 +1,1 @@
+select d.department_id, d.department_name, e.last_name, j.start_date from employees e join departments d on e.employee_id=d.manager_id join job_history j on d.manager_id=j.employee_id;

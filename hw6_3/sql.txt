@@ -1,0 +1,11 @@
+1. create user 'puser'@'localhost' identified by '1234';
+2. create database projects;
+3. grant all on projects.* to puser@localhost;
+
+4. create table student ( stdID char(9) not null primary key, stdName varchar(10) not null, stdPNum char(11) unique, deptID char(2) not null );
+
+create table department ( deptID char(2) not null primary key, deptName varchar(10) unique not null, offiNum char(10));
+
+alter table student add foreign key(deptID) references department(deptID);
+
+create table professor ( proID char(9) not null primary key, proName varchar(10) not null, proPNum char(11) unique, deptID char(2), foreign key (deptID) references department(deptID));

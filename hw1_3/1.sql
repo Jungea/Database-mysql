@@ -1,0 +1,1 @@
+SELECT employee_id, last_name, first_name, salary FROM employees WHERE salary > all(SELECT salary FROM employees WHERE job_id ='SH_CLERK');

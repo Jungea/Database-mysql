@@ -1,0 +1,1 @@
+alter table employees2 drop column first_name;

@@ -1,0 +1,1 @@
+create view v_empmgr as select e.employee_id "EMP#", e.first_name "EMP_NAME", m.employee_id "MANAGER#", m.first_name "MANAGER_NAME" from employees.employees e join employees.employees m on e.manager_id=m.employee_id;

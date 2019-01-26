@@ -1,0 +1,1 @@
+create user 'emp_remote'@'192.168.10.1' identified by 'test123';

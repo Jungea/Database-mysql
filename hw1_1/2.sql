@@ -1,0 +1,1 @@
+SELECT last_name, first_name, salary, department_id FROM employees WHERE salary >= 12000;

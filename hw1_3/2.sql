@@ -1,0 +1,1 @@
+SELECT employee_id, last_name, salary FROM employees WHERE salary between 5000 and 12000 ORDER BY salary desc;

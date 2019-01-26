@@ -1,0 +1,1 @@
+revoke all privileges, grant option from 'emp_user'@'localhost';

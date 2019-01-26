@@ -1,0 +1,8 @@
+create table reservation ( resID int(5) auto_increment primary key,  resTime date not null,  approve int(1) not null default 0, cancel int(1) not null default 0, resTitle varchar(20) not null, stdID char(9) not null, proID char(9) not null,  foreign key (stdID) references student(stdID), foreign key (proID) references professor(proID) );
+
+
+create table reservationDescript ( desID int(5) auto_increment primary key, resID int(5) not null, startTime date not null,  content varchar(20) not null, foreign key (resID) references reservation(resID) );
+
+alter table tbl change oldCol newCol type option;
+
+update tbl set col = newValue where condition

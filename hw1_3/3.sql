@@ -1,0 +1,1 @@
+SELECT last_name, hire_date, job_id FROM employees WHERE last_name in ('Matos', 'Taylor', 'Fay', 'Baer') ORDER BY hire_date;

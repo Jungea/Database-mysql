@@ -1,0 +1,1 @@
+SELECT department_id, sum(salary) FROM employees WHERE salary <= 5000 GROUP BY department_id;

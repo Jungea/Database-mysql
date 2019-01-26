@@ -1,0 +1,1 @@
+drop index my_dept_name_uq on dept;

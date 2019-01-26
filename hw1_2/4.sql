@@ -1,0 +1,1 @@
+select employee_id, salary, commission_pct from employees where commission_pct >0 order by salary, commission_pct;
